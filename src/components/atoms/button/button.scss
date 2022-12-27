@@ -1,0 +1,30 @@
+//Bloque
+.button{
+    border: none;
+    background-color: blue;
+    //color: white;
+    //padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+
+    //al momento que pase por encima el raton cambia de color
+    //&:hover{background-color: yellow;}
+
+    //Modificador
+    &--small{
+        padding: 10px;
+    }
+
+    &--large{
+        padding: 20px;
+    }
+
+    //Elemento
+    &__label
+    {
+        color: white;
+        //Modificador
+        //&--light{color: white;}
+    }
+    
+}

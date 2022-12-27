@@ -1,0 +1,21 @@
+.checkbox
+{
+    display: flex;
+
+    align-items: center;
+
+    //espacio entre items
+    gap: 20px;
+
+    //el input va a ser un elemento del checkbox
+    //por eso se va a concatenar con la clase
+    &__label
+    {
+        color: lightseagreen;
+
+        &--checked
+        {
+            text-decoration: line-through;
+        }
+    }
+}
